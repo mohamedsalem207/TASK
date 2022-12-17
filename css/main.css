@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+* {
+  font-family: "Inter";
+}
+
+body {
+  background-image: url("../images/gradientbackground.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Start of the public styles */
+.page {
+  height: 100vh;
+}
+.page .content {
+  width: 80%;
+  background-color: rgba(245, 247, 255, 0.8509803922);
+}
+.page .content .dodo-btn {
+  height: 55px;
+  background: linear-gradient(#2663df, #758ff0);
+}
+.page .content .dodo-btn:disabled {
+  pointer-events: unset !important;
+  cursor: not-allowed !important;
+}
+.page .content form .input-box .icon {
+  left: 7px;
+  width: 25px;
+  border-right: 1px solid #dbe3ff;
+}
+.page .content form .input-box .icon i {
+  font-size: 14px;
+  color: #9cadf2;
+}
+.page .content form .input-box input {
+  padding: 10px;
+  -webkit-padding-start: 41px;
+          padding-inline-start: 41px;
+}
+.page .content form .input-box .error {
+  height: 30px;
+}
+
+/* End of the public styles */
+/* Start of the welcome page */
+.welcome p {
+  margin-bottom: 33px !important;
+}
+
+/* End of the welcome page */
+/* Start of the register page */
+.register img {
+  height: 505px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* End of th register page  *//*# sourceMappingURL=main.css.map */
